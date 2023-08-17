@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    
+
+}
+
+
+.navbar-container {
+    background-color: #27303e;
+    color: white;
+    width: 100vw;
+    padding: 0.5rem;
+    
+
+
+}
+
+.navbar-container>nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-links-container>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links-container>ul>li {
+    padding-left: 2rem;
+}
