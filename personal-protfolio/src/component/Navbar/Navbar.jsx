@@ -8,7 +8,12 @@ export default function Navbar () {
       <div className='navbar-container'>
         <nav>
             <div>
-                <h2>Oyindamola J Akanbi</h2>
+                <h2>OJ Akanbi</h2>
+
+            </div>
+
+            <div>
+                <h2>Still Under development</h2>
 
             </div>
 
