@@ -12,10 +12,7 @@ export default function Navbar () {
 
             </div>
 
-            <div>
-                <h2>Still Under development</h2>
-
-            </div>
+          
 
             <div className="nav-links-container">
                 <ul>

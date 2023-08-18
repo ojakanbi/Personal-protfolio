@@ -29,3 +29,28 @@
 .nav-links-container>ul>li {
     padding-left: 2rem;
 }
+
+
+@media (max-width: 1200px) { 
+    .navbar-container>nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links-container>ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: -15%;
+    }
+    
+    .nav-links-container>ul>li {
+       
+        padding-left: 7%;
+   
+    }
+    
+
+
+}
