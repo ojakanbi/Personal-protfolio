@@ -7,12 +7,14 @@ import Image from 'next/image';
 
 
 
+
 export default function Hero() {
     return (
         <>
             <div className='hero-container'>
                 <div className='profile-container'>
                   <Image src={profile} alt='profile pic'/>
+     
                 </div>
                 <div className="info-container">
                     <div id='major'>
