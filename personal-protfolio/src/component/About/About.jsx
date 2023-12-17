@@ -5,53 +5,59 @@ import linkedinPic from "../../images/linkedin-pic.jpg"
 
 
 export default function About() {
-    return (
-        <div className="about-page-container">
-            <div className="about-container">
-                <div className="about-left-side">
-                    <div className="about-img-container">
-                       <Image src={linkedinPic} />
-                    </div>
-                    <div className="skill-mf">
-  <p className="title-s">Skills</p>
-  <div>
-    <span>HTML</span> <span className="pull-right">70%</span>
-    <div className="progress">
-      <div className="progress-bar" role="progressbar" style={{ width: '70%' }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-  <div>
-    <span>CSS</span> <span className="pull-right">70%</span>
-    <div className="progress">
-      <div className="progress-bar" role="progressbar" style={{ width: '70%' }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-  <div>
-    <span>Python</span> <span className="pull-right">75%</span>
-    <div className="progress">
-      <div className="progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-  <div>
-    <span>Java</span> <span className="pull-right">55%</span>
-    <div className="progress">
-      <div className="progress-bar" role="progressbar" style={{ width: '55%' }} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-</div>
-
-                </div>
-                <div className="about-right-side">
-                    <h3>
-                        About me
-                    </h3>
-                    <p>
-                         fhnsiudvsdvu
-                    </p>
-                </div>
-
+  return (
+    <>
+    <div className="about-container">
+      <div className= "info-container">
+        <div>
+          <div>
+            <h3>About Me</h3>
+            <h6>
+              A Junior majoring in Information Science & Technology at The Pennsylvania State University.
+            </h6>
+            <p>As an<mark> aspiring</mark>tech leader, my passion is centered around harnessing technology to create a positive impact in people's lives. I am driven to build innovative tools and technologies that contribute to the development of society. .</p>
+            <div className="row aabout-list">
+            <div className="media">
+                                        <label>Birthday</label>
+                                        <p>5th april 2003</p>
+                                    </div>
+                                    <div className="media">
+                                        <label>Age</label>
+                                        <p>20 Yr</p>
+                                    </div>
+                                    <div className="media">
+                                        <label>Residence</label>
+                                        <p>Canada</p>
+                                    </div>
+                                    <div className="media">
+                                        <label>Address</label>
+                                        <p>Pennsylvania, USA</p>
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div className="media">
+                                        <label>E-mail</label>
+                                        <p>info@domain.com</p>
+                                    </div>
+                                    <div className="media">
+                                        <label>Phone</label>
+                                        <p>820-885-3321</p>
+                                    </div>
+                                    <div className="media">
+                                        <label>Skype</label>
+                                        <p>skype.0404</p>
+                                    </div>
+                                    <div className="media">
+                                        <label>Freelance</label>
+                                        <p>Available</p>
+                                    </div>
+                                </div>
 
             </div>
+          </div>
+
         </div>
-    )
+      </div>
+    </div>
+    </>
+  )
 }

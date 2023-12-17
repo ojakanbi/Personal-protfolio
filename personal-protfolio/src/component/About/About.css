@@ -1,82 +1,18 @@
-
-.about-page-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .about-container {
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.info-container{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 5%;
-    background-color: #27303e;
-    border-radius: 1.5rem;
-    justify-content: space-evenly;
-    align-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.about-img-container>img{
-    width: 20%;
-    height: 10%;
-    border-radius: 1rem;
-}
-
-.skill-mf {
-    width:50%
-}
-.title-s {
-    font-weight: 600;
-    color: #1e1e1e;
-    font-size: 1.1rem;
-}
-
-
-
-.skill-mf span {
-    color: #4e4e4e;
-}
-
-.pull-right {
-    float: right;
-}
-
-.skill-mf .progress {
-    background-color: #cde1f8;
-    margin: 0.5rem 0 1.2rem 0;
-    border-radius: 0;
-    height: 0.7rem;
-}
-
-.progress {
-    display: -ms-flexbox;
-    display: flex;
-    height: 1rem;
-    overflow: hidden;
-    line-height: 0;
-    font-size: .75rem;
-    background-color: #e9ecef;
-    border-radius: 0.25rem;
-}
-
-.progress-bar {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #007bff;
-    transition: width .6s ease;
-}
-.about-left-side {
-
-}
-
-.about-right-side {
-    margin-right:10% ;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row-reverse!important;
 }

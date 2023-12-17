@@ -1,43 +1,42 @@
-import React from 'react';
-import "./Navbar.css"
+import React from "react";
+import "./Navbar.css";
 
+export default function Navbar() {
+  return (
+    <div className="navbar-container">
+      <nav>
+        <h1 className="nameLogo">Oyindamola Akanbi</h1>
+        <ul>
+          <li>
+            <a href="#">
+              <i className="fa-solid fa-house-user"></i>
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+              <i className="fa-solid fa-address-card"></i>
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a href="#video-section-heading">
+              <i className="fa-brands fa-youtube"></i>
+              VIDEO
+            </a>
+          </li>
+          <li>
+            <a href="#connect">
+              <i className="fa-solid fa-link"></i>
+              CONNECT
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  );
+}
 
+{
 
-export default function Navbar () {
-    return (
-      <div className='navbar-container'>
-        <nav>
-            <div>
-                <h2>OJ Akanbi</h2>
-
-            </div>
-
-          
-
-            <div className="nav-links-container">
-                <ul>
-                    <li>
-                        <a href='#about'>
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href='#protfolio'>
-                            Protfolio 
-                        </a>
-                    </li>
-                    <li>
-                        <a href='#contact'>
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-                
-              
-            </div>
-
-            
-        </nav>
-      </div>
-    )
 }

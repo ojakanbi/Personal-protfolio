@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/swc-darwin-arm64": "^14.0.4",
     "@nextui-org/react": "^2.0.22",
     "autoprefixer": "10.4.15",
     "next": "^13.4.18",
