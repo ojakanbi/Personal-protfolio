@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <nav>
-        <h1 className="nameLogo">Oyindamola Akanbi</h1>
+      <div id="logo-design"><a href="/">OJ</a></div>
         <ul>
           <li>
             <a href="#">

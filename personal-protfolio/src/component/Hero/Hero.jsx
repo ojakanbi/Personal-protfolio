@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import profile from "../../images/profile-pic.jpg"
+import profile from "../../images/linkedin-pic.jpg"
 import Image from 'next/image';
 
 
@@ -13,7 +13,7 @@ export default function Hero() {
         <>
             <div className="mainHeader">
                 <div className="imgContainer">
-                        <img src="images/pf.jpg" alt="Profile picture of a African American male" id="pf1"/>
+                        <Image src={profile} alt="Profile picture of a African American male" id="pf1"/>
                 </div>
                 <div className="textContainer">
                     <div className="info">
