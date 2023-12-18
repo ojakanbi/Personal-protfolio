@@ -11,26 +11,28 @@ import Image from 'next/image';
 export default function Hero() {
     return (
         <>
-            <div className='hero-container'>
-                <div className='profile-container'>
-                  <Image src={profile} alt='profile pic'/>
-     
+            <div className="mainHeader">
+                <div className="imgContainer">
+                        <img src="images/pf.jpg" alt="Profile picture of a African American male" id="pf1"/>
                 </div>
-                <div className="info-container">
-                    <div id='major'>
-                        <h2>Information Science & Technology</h2>
+                <div className="textContainer">
+                    <div className="info">
+                        <i className="fa-solid fa-graduation-cap"></i>
+                        <span>The Pennsylvania State University</span>
                     </div>
-                    <div id='name'>
-                        <h1>Oyindamola J (OJ) Akanbi </h1>
+                    <div className="mainName">Oyindamola J Akanbi</div>
+                    <div className="info">
+                        <i className="fa-solid fa-code"></i>
+                        <span>Information Science and Technology</span>
                     </div>
-                    <div id='school'>
-                        <h2>The Pennsylvania State University</h2>
-                    </div>
-
+                    <a href='pdf/oyindamolaAkanbiResume.pdf' className="resumeLink">
+                        <button className="resumeBtn">RESUME</button>
+                    </a>
                 </div>
-
             </div>
+
 
         </>
     )
+
 }
