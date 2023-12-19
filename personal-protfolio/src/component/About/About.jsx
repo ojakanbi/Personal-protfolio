@@ -5,13 +5,14 @@ import linkedinPic from "../../images/linkedin-pic.jpg";
 
 export default function About() {
   return (
-    <>
-      <div id="aboutMeTitle">
+    < >
+
+      <div className="headingTitle" id ="about">
         <h3>
           <span id="who">WHO</span> AM I?{" "}
         </h3>
       </div>
-      <div className="hidden about-section" id="about">
+      <div className="hidden about-section">
         <div className="about-section-media">
           {/* <LottieAnimation id="pr" animationData={flag} /> */}
         </div>
@@ -25,11 +26,7 @@ export default function About() {
                 ever-evolving world of technology and its profound impact on
                 daily human life. As a motivated individual, my goal is to
                 leverage technology to make a positive difference in the world.
-                <span> 
-                  
-           
-            
-                During my leisure time, I find joy in playing soccer with
+                <span> During my leisure time, I find joy in playing soccer with
                 friends and spending quality moments with my family. I dedicated
                 my initial college years to playing soccer at the collegiate
                 level. Additionally, I actively participated in various
@@ -44,7 +41,8 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+        </div>
+       
     </>
   );
 }

@@ -1,3 +1,5 @@
+
+
 .about-section {
     color:white;
     background: linear-gradient(to right, #121111, #577ab2);
@@ -17,7 +19,7 @@
     padding: 50px;
 }
 
-#aboutMeTitle{
+.headingTitle{
     margin-left: 20px;
     font-size:60px;
     font-weight: bold;
