@@ -20,8 +20,8 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <section>
-      <div className="headingTitle " id = "headingTitle">
-              <h1>MY <span id="who">
+      <div className="headingTitle " id = "right">
+              <h1>MY <span id="blue-span">
               SKILLS</span></h1>
           </div>
       <div className="skills-section">

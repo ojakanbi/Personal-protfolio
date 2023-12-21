@@ -4,6 +4,7 @@ import About from "@/component/About/About";
 
 import Image from "next/image";
 import Skills from "@/component/Skills/Skills";
+import Experience from "@/component/Experience/Experience";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
+      <Experience />
+      
     </>
   );
 }

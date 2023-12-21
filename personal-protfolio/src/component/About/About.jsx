@@ -9,7 +9,7 @@ export default function About() {
 
       <div className="headingTitle" id ="about">
         <h3>
-          <span id="who">WHO</span> AM I?{" "}
+          <span id="blue-span">WHO</span> AM I?{" "}
         </h3>
       </div>
       <div className="hidden about-section">

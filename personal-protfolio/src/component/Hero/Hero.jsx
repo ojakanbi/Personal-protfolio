@@ -36,10 +36,6 @@ export default function Hero() {
             <a href="#about" className="resumeLink">
               <button className="resumeBtn">ABOUT</button>
             </a>
-
-            {/* <button onClick={() => window.open("../../pdf/oyindamolaAkanbiResume.pdf", "_blank")} className="resumeBtn">
-              RESUME
-            </button> */}
           </div>
         </div>
       </div>
