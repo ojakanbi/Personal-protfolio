@@ -3,6 +3,7 @@ import "./Hero.css";
 import profile from "../../images/linkedin-pic.jpg";
 import Image from "next/image";
 
+
 export default function Hero() {
   return (
     <>
@@ -25,12 +26,20 @@ export default function Hero() {
             <span>Information Science and Technology</span>
           </div>
           <div id="resumeAbout">
-            <a href="pdf/oyindamolaAkanbiResume.pdf" className="resumeLink">
+            <a href="oyindamolaAkanbiResume.pdf" target="_blank" className="resumeLink">
               <button className="resumeBtn">RESUME</button>
             </a>
+            
+
+  
+
             <a href="#about" className="resumeLink">
               <button className="resumeBtn">ABOUT</button>
             </a>
+
+            {/* <button onClick={() => window.open("../../pdf/oyindamolaAkanbiResume.pdf", "_blank")} className="resumeBtn">
+              RESUME
+            </button> */}
           </div>
         </div>
       </div>
