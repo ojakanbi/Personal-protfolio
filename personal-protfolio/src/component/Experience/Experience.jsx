@@ -5,19 +5,19 @@ import "./Experience.css";
 // create me a data of experiences 
 const experiences = [
   {
-    image: "https://picsum.photos/200",
+    image: "salesforce.svg",
     title: "Incoming Software Engineer Intern",
     date: "May 2024 - Aug 2024",
     description: "San Francisco, CA"
   },
   {
-    image: "https://picsum.photos/200",
+    image: "pennstate.png",
     title: "Information Technology Support",
     date: "Nov 2023 - Present",
     description: "Penn State University"
   },
   {
-    image: "https://picsum.photos/200",
+    image: "salesforce.svg",
     title: "FutureForce Techlauncpad Scholar Intern",
     date: "June 2023 - Aug 2023",
     description: "San Francisco, CA"

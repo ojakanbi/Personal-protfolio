@@ -50,7 +50,7 @@
   .circleExperience {
     width: 4.5rem;
     height: 5rem;
-    background-color: #007bff;
+    background-color: transparent;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -62,7 +62,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    object-fit: cover;
+
   }
   
   .card-content {
