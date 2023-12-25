@@ -21,8 +21,8 @@ export default function Skills() {
   return (
     <section>
       <div className="headingTitle " id = "right">
-              <h1>MY <span id="blue-span">
-              SKILLS</span></h1>
+              <h3>MY <span id="blue-span">
+              SKILLS</span></h3>
           </div>
       <div className="skills-section">
         
