@@ -11,7 +11,9 @@ import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
-
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Link from '@mui/material/Link';
+import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -19,27 +21,32 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
   
 
 const projects = [
-  {
-    label: "BrainForce",
-    imgPath:
-      "https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-  {
-    label: "LifeTracker",
-    imgPath:
-      "https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-  {
-    label: "Bali, Indonesia",
-    imgPath:
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250",
-  },
-  {
-    label: "Goč, Serbia",
-    imgPath:
-      "https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60",
-  },
+    {
+        label: "BrainForce",
+        imgPath: "brainforce.png",
+        github: "https://github.com/ojakanbi/BrainForceFrontEnd",
+        website: " https://brainforce-ui.onrender.com/ "
+    },
+    {
+        label: "LifeTracker",
+        imgPath: "lifetracker.png",
+        github: "https://github.com/ojakanbi/LifetrackerSalesforce",
+        website: "https://lifetracker-frontend-oj.onrender.com"
+    },
+    {
+        label: "Flixster",
+        imgPath: "flixster.png",
+        github: "https://github.com/ojakanbi/ojakanbi.github.io",
+        website: "https://ojakanbi.github.io"
+    },
+    {
+        label: "Personal Website",
+        imgPath: "personalweb.png",
+        github: "https://github.com/ojakanbi/Personal-protfolio",
+        website: "https://ojakanbi-ojakanbi.vercel.app/"
+    },
 ];
+
 
 function Projects() {
   const theme = useTheme();
@@ -69,7 +76,7 @@ function Projects() {
               
       </div>
       <div className="projects-section">
-        <Box sx={{ maxWidth: 900, flexGrow: 1 ,maxHeight:"50%"}}>
+        <Box sx={{ maxWidth: 900, flexGrow: 1 ,}}>
           <Paper
             square
             elevation={0}
@@ -125,8 +132,46 @@ function Projects() {
                       
                 </div>
               ))}
-            </AutoPlaySwipeableViews>
-          </Paper>
+                      </AutoPlaySwipeableViews>
+                      
+                      <Typography
+                          
+                          sx={{
+                              color: "whitee",
+                              fontWeight: "bold",
+                              fontSize: "30px",
+                                textAlign: "center",
+                          }}
+                      >
+                          <Link
+                                sx={{
+                                    color: "white",
+                                    fontWeight: "bold",
+                                    fontSize: "30px",
+                                  textAlign: "center",
+                                    marginRight: "10px",
+
+                                }}
+                          
+                              href={projects[activeStep].github}><GitHubIcon></GitHubIcon></Link>
+                        
+                          <Link
+                                sx={{
+                                    color: "white",
+                                    fontWeight: "bold",
+                                    fontSize: "30px",
+                                  textAlign: "center",
+
+
+                                }}
+                          
+                              href={projects[activeStep].website}><OpenInBrowserIcon></OpenInBrowserIcon></Link>
+                          
+                    
+                           </Typography>
+                  </Paper>
+                  
+                  
 
           <MobileStepper
             sx={{
