@@ -13,16 +13,15 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { faC, faDatabase } from "@fortawesome/free-solid-svg-icons";
-import { createStyles, Avatar, Text, Group } from "@mantine/core";
-import { IconPhoneCall, IconAt, IconBook } from "@tabler/icons-react";
+
 import "./Skills.css";
 
 export default function Skills() {
   return (
     <section>
-      <div className="headingTitle " id = "headingTitle">
-              <h1>MY <span id="who">
-              SKILLS</span></h1>
+      <div className="headingTitle " id = "right">
+              <h3>MY <span id="blue-span">
+              SKILLS</span></h3>
           </div>
       <div className="skills-section">
         

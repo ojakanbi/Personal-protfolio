@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30vh;
+    height: 50vh;
 }
 
 .about-section-text-container-content > p{
@@ -26,6 +27,30 @@
     margin-bottom: 20px;
 }
 
-#who{
+.headingTitle>h3 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+#blue-span{
     color:#577ab2;
+}
+
+
+#nigeriaGreen{
+    color:#008000;
+}
+
+#spanYellow {
+    color:#ffff00;
+}
+
+#spanRed{
+    color:#ff0000;
+}
+
+#spanBlack{
+    color:#000000;
 }

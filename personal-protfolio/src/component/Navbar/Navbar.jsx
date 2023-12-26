@@ -22,11 +22,23 @@ export default function Navbar() {
           <li>
             <a href="#video-section-heading">
               <i className="fa-brands fa-youtube"></i>
-              VIDEO
+              SKILLS
             </a>
           </li>
           <li>
-            <a href="#connect">
+            <a href="#experience">
+              <i className="fa-solid fa-link"></i>
+              EXPERIENCE
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              <i className="fa-solid fa-link"></i>
+              PROJECTS 
+            </a>
+          </li>
+          <li>
+            <a href="Connect">
               <i className="fa-solid fa-link"></i>
               CONNECT
             </a>

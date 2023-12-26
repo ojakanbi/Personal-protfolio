@@ -1,0 +1,52 @@
+.projects-section {
+    color: white;
+    background: linear-gradient(to left, #121111, #577ab2);
+    border-radius: 500px 0 0 500px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30vh;
+    height: 50vh;
+  }
+  
+
+  /* Projects.css */
+
+@media (max-width: 600px) {
+    .projects-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .projects-section .MuiPaper-root {
+      width: 90%;
+    }
+  
+    .projects-section .MuiPaper-root > :nth-child(1) {
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+    }
+  
+    .projects-section .MuiPaper-root > :nth-child(2) {
+      margin-bottom: 10px;
+    }
+  
+    .projects-section .MuiPaper-root > :nth-child(3) {
+      border-radius: 15px;
+      margin: auto;
+      margin-top: 10px;
+      width: 90%;
+      max-width: 400px;
+    }
+  
+    .projects-section .MuiMobileStepper-root {
+      margin-top: 10px;
+      border-radius: 30px;
+    }
+  }
+  
