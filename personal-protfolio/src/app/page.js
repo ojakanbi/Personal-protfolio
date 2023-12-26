@@ -9,18 +9,27 @@ import Image from "next/image";
 import Skills from "@/component/Skills/Skills";
 import Experience from "@/component/Experience/Experience";
 import Projects from "@/component/Projects/Projects";
+import Contact from '@/component/Contact/Contact';
+import axios from 'axios';
 
 
-export default function Home() {
+
+
+export default function Page() {
+
   return (
     <>
+      
       <Navbar />
       <Hero />
       <About />
       <Skills />
       <Experience />
       <Projects />
+      <Contact />
       
     </>
   );
 }
+
+

@@ -1,5 +1,8 @@
+
 import React from "react";
 import "./Experience.css";
+
+
 
 
 // create me a data of experiences 
@@ -49,8 +52,6 @@ const experienceSections = experiences.map((experience, index) => (
 
 
 const Experience = () => {
-
-
   return (
     <section>
       <div className="headingTitle " id ="left">
@@ -60,7 +61,9 @@ const Experience = () => {
           </div>
 
           <div className="experience-section">
-              <section className="each-experience">
+        <section className="each-experience">
+          
+  
           
                         {experienceSections}
               </section>
@@ -69,5 +72,10 @@ const Experience = () => {
     </section>
   );
 };
+
+
+
+
+
 
 export default Experience;
