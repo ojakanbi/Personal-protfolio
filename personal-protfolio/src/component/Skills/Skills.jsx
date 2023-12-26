@@ -13,8 +13,7 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { faC, faDatabase } from "@fortawesome/free-solid-svg-icons";
-import { createStyles, Avatar, Text, Group } from "@mantine/core";
-import { IconPhoneCall, IconAt, IconBook } from "@tabler/icons-react";
+
 import "./Skills.css";
 
 export default function Skills() {
