@@ -29,7 +29,19 @@ export default function Contact() {
    
         
     return (
-        <div>
+       
+        <section>
+            <div className="headingTitle" id="left">
+                <h3>
+                    <span id="blue-span">Contact</span> Me
+                </h3>
+            </div>
+
+            <div className="experience-section">
+
+          
+
+          
             <form
                 onSubmit=
                     {handleSubmit}
@@ -66,8 +78,10 @@ export default function Contact() {
                 </div>
                 <button type="submit">Submit</button>
 
-            </form>
-        </div>
+                </form>
+                </div>
+                </section>
+       
     )
 }
 
