@@ -41,6 +41,39 @@
   border: none;
   border-radius: 3px;
   background-color: #577ab2;
-  color: #fff;
+  color: #000;
   cursor: pointer;
+}
+
+
+.contactsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.contactsList >ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.contactsList >ul>li{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.iconContact {
+  font-size: 90px;
+  color: #121111;
+  background-color: #577ab2;
+  border-radius: 40%;
+}
+
+.iconContact:hover {
+  color: #577ab2;
+  background-color: #121111;
+  border-radius: 40%;
 }
