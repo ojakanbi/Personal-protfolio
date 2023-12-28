@@ -20,6 +20,7 @@
     "@nextui-org/react": "^2.0.22",
     "@prisma/client": "^5.7.1",
     "@tabler/icons-react": "^2.44.0",
+    "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.15",
     "axios": "^1.6.2",
     "next": "^13.4.18",
