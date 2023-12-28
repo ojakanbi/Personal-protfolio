@@ -2,7 +2,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Contact.css";
-import { GitHub, Linkedin, Instagram } from "@mui/icons-material";
+import { GitHub, Instagram } from "@mui/icons-material";
+import Linkedin from '@mui/icons-material/LinkedIn';
+
 
 export default function Contact() {
   const [data, setData] = useState({ name: "", email: "", message: "" });
