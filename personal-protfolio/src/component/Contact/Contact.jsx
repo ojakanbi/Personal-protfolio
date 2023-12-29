@@ -19,16 +19,21 @@ export default function Contact() {
 
     console.log("data", data);
     axios
-      .post("/api/hello", data)
-      .then((res) => {
-        console.log("Response:", res);
-        setShowForm(!showForm); // Toggle form display on successful submission
-      })
-      .catch((err) => {
-        console.log("Error:", err);
-      });
-
-    setData({ name: "", email: "", message: "" });
+    .post("/api/hello", data)
+    .then((res) => {
+      console.log("Response:", res);
+      setShowForm(!showForm); // Toggle form display on successful submission
+    })
+    .catch((err) => {
+      console.error("Error:", err);
+      if (err.response) {
+        console.log("Server responded with:", err.response.data);
+      } else if (err.request) {
+        console.log("No response received:", err.request);
+      } else {
+        console.log("Error setting up request:", err.message);
+      }
+    });
   };
 
   return (
