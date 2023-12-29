@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <nav>
-      <div id="logo-design"><a href="/">OJ</a></div>
+        <h1 className="nameLogo">Oyindamola Akanbi</h1>
         <ul>
           <li>
             <a href="#">
@@ -22,23 +22,11 @@ export default function Navbar() {
           <li>
             <a href="#video-section-heading">
               <i className="fa-brands fa-youtube"></i>
-              SKILLS
+              VIDEO
             </a>
           </li>
           <li>
-            <a href="#experience">
-              <i className="fa-solid fa-link"></i>
-              EXPERIENCE
-            </a>
-          </li>
-          <li>
-            <a href="#projects">
-              <i className="fa-solid fa-link"></i>
-              PROJECTS 
-            </a>
-          </li>
-          <li>
-            <a href="Connect">
+            <a href="#connect">
               <i className="fa-solid fa-link"></i>
               CONNECT
             </a>
