@@ -8,7 +8,6 @@ const cors = Cors({
 
 export default async function handler(req, res) {
   try {
-    // Apply the CORS middleware
     await new Promise((resolve, reject) => {
       cors(req, res, (err) => {
         if (err) {
