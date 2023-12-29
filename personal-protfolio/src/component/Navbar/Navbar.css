@@ -4,7 +4,7 @@
 
 }
 
-.navContainer
+.navbar-container
 {
   display: flex;
   align-items: center;
@@ -18,19 +18,51 @@ nav
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 35px;
   padding-left: 5%;
   padding-right: 10px;
   width: 100%;
   background: linear-gradient(to right, #121111, #577ab2);
   position: fixed;
+ 
 }
+
+#logo-design {
+  border-radius: 10%;
+  text-align: center;
+  background: linear-gradient(to left, #121111, #577ab2);
+  padding: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  animation: rotate 1.5s;
+  margin: 30px 0px 10px 0px ;
+}
+
+#logo-design > a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+}
+100% {
+    transform: rotate(360deg);
+}
+  
+}
+
+
 
 nav ul li
 {
   list-style-type: none;
   display: inline-block;
-  padding: 10px;
+  padding: 30px;
   cursor: pointer;
 }
 

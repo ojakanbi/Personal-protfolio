@@ -9,13 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-darwin-arm64": "^14.0.4",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.15.1",
+    "@mui/material": "^5.15.2",
     "@nextui-org/react": "^2.0.22",
+    "@prisma/client": "^5.7.1",
+    "@tabler/icons-react": "^2.44.0",
+    "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.15",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
     "next": "^13.4.18",
     "postcss": "8.4.28",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
+    "react-swipeable-views-react-18-fix": "^0.14.1",
+    "react-swipeable-views-utils": "^0.14.0",
     "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "prisma": "^5.7.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
