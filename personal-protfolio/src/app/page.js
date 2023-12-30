@@ -10,6 +10,7 @@ import Skills from "@/component/Skills/Skills";
 import Experience from "@/component/Experience/Experience";
 import Projects from "@/component/Projects/Projects";
 import Contact from '@/component/Contact/Contact';
+import Copyright from '@/component/Copyright/Copyright';
 import axios from 'axios';
 
 
@@ -19,13 +20,14 @@ export default function Page() {
 
   return (
     <>
-      <Navbar />
+      <Navbar  />
       <Hero />
       <About />
-      <Skills />
-      <Experience />
+      <Skills id = "skills"/>
+      <Experience id ="experience" />
       <Projects />
       <Contact />
+      <Copyright />
       
     </>
   );
