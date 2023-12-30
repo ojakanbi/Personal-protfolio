@@ -34,6 +34,12 @@ export default function Contact() {
         console.log("Error setting up request:", err.message);
       }
     });
+
+    axios
+      .get("/api/message", data)
+      .then((res) => {
+        console.log("Respons message:", res);
+      })
   };
 
   return (
