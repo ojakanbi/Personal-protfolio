@@ -1,52 +1,99 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+
+.span {
+  color: var(--websiteUniqueColor);
+}
+
+
 .projects-section {
-    color: white;
-    background: linear-gradient(to left, #121111, #577ab2);
-    border-radius: 500px 0 0 500px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30vh;
-    height: 50vh;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
 
-  /* Projects.css */
 
-@media (max-width: 600px) {
-    .projects-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .projects-section .MuiPaper-root {
-      width: 90%;
-    }
-  
-    .projects-section .MuiPaper-root > :nth-child(1) {
-      padding: 10px;
-      margin-bottom: 10px;
-      border-radius: 15px;
-    }
-  
-    .projects-section .MuiPaper-root > :nth-child(2) {
-      margin-bottom: 10px;
-    }
-  
-    .projects-section .MuiPaper-root > :nth-child(3) {
-      border-radius: 15px;
-      margin: auto;
-      margin-top: 10px;
-      width: 90%;
-      max-width: 400px;
-    }
-  
-    .projects-section .MuiMobileStepper-root {
-      margin-top: 10px;
-      border-radius: 30px;
-    }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.each-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  color: #fff;
+  font-size: 36px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, var(--websiteUniqueColor), #c4e0e5);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+
+.project-label {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 28px;
+    overflow-x: scroll;
   }
-  
+
+  .section-heading {
+    font-size: 24px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
+
+  .project-label {
+    font-size: 14px;
+  }
+}

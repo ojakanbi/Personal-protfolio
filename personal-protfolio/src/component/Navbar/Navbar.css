@@ -1,18 +1,16 @@
-/* Reset and general styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Navbar styles */
 .navbar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 5%;
-  background: linear-gradient(to right, #121111, #577ab2);
- 
+  background: var(--websiteUniqueColor);
   width: 100%;
   z-index: 1000;
 }
@@ -20,7 +18,7 @@
 .logo-container {
   border-radius: 10%;
   text-align: center;
-  background: linear-gradient(to left, #121111, #577ab2);
+  background: linear-gradient(to left, #444, #444);
   padding: 5px;
   font-size: 30px;
   cursor: pointer;
@@ -41,10 +39,11 @@
 
 .nav-links li {
   padding: 0 20px;
+  font-size: large;
 }
 
 .nav-link {
-  color: white;
+  color: #444;
   text-decoration: none;
   font-family: monospace;
   transition: color 0.2s;
@@ -54,8 +53,8 @@
   color: #000000;
 }
 
-/* Media queries */
-@media (max-width: 1200px) { 
+
+@media (max-width: 1200px) {
   .navbar-container {
     flex-direction: column;
     align-items: center;

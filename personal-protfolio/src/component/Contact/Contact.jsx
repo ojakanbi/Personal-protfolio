@@ -37,14 +37,14 @@ export default function Contact() {
   };
 
   return (
-    <section>
-      <div className="headingTitle " id="left">
+    <section className= "container"  id="connect">
+      <div className="section-heading" id="left">
         <h3>
-          <span id="blue-span">Contact</span> Me{" "}
+          <span className = "span">Contact</span> Me{" "}
         </h3>
       </div>
 
-      <div className="experience-section">
+      <div className="content-container">
         <div className="contact-container">
           <div className={`contact-form ${showForm ? "active" : ""}`}>
             <div className="form-backdrop"></div>

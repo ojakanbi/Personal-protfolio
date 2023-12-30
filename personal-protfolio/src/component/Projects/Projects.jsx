@@ -67,16 +67,16 @@ function Projects() {
 
   return (
     <section>
-      <div className="headingTitle " id="right">
+      <div className="section-heading " id="projects">
         <h3>
-                  <span id="blue-span">My</span> Projects{" "}
+                  <span className="span">My</span> Projects{" "}
                   
               </h3>
               
               
       </div>
       <div className="projects-section">
-        <Box sx={{ maxWidth: 900, flexGrow: 1 ,}}>
+        <Box sx={{ maxWidth: 900, flexGrow: 1 , display:"flex", alignContent:"center", flexDirection: "column", justifyContent:"center"}}>
           <Paper
             square
             elevation={0}
@@ -85,7 +85,7 @@ function Projects() {
               flexDirection: "column",
               justifyContent: "space-between",
               height: "100%",
-              background: "#121111",
+              background: "Transparent",
               borderRadius: "30px",
               marginBottom: "0px",
               color: "white",
@@ -180,6 +180,9 @@ function Projects() {
               marginTop: "10px",
               color: "white",
               fontWeight: "bold",
+              marginBottom: "100px",
+              background: "#444",
+              width: "100%"
             }}
             steps={maxSteps}
             position="static"

@@ -23,7 +23,7 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#video-section-heading" className="nav-link">
+          <a href="#skills" className="nav-link">
             <i className="fa-brands fa-youtube"></i>
             SKILLS
           </a>
@@ -41,7 +41,7 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href="Connect" className="nav-link">
+          <a href="#connect" className="nav-link">
             <i className="fa-solid fa-link"></i>
             CONNECT
           </a>
