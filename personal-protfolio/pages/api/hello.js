@@ -1,23 +1,16 @@
+import NextCors from 'nextjs-cors';
 import prisma from '../../src/prisma';
-import Cors from 'cors';
-
-const cors = Cors({
-  methods: ['POST', 'GET', 'HEAD'],
-  // Define your CORS options here as needed
-});
 
 export default async function handler(req, res) {
   try {
-    await new Promise((resolve, reject) => {
-      cors(req, res, (err) => {
-        if (err) {
-          return reject(err);
-        }
-        resolve();
-      });
+    await NextCors(req, res, {
+      // Options
+      methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
+      origin: '*',
+      optionsSuccessStatus: 200,
     });
 
-    // Rest of your API logic here
+
     if (req.method === 'POST') {
       const { name, email, message } = req.body;
 
@@ -31,7 +24,7 @@ export default async function handler(req, res) {
           },
         });
 
-        return res.status(200).json({ message: 'Form submitted successfully' });
+        return res.status(200).json({ message: 'Form submitted successfully 🏁🏁' });
       } catch (error) {
         return res.status(500).json({ message: 'Internal Server Error' });
       }
