@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 
+
 export default function Navbar() {
   return (
     <nav className="navbar-container">
@@ -8,6 +9,10 @@ export default function Navbar() {
         <a href="/" className="logo-link">
           OJ
         </a>
+      </div>
+      <div id="contrcution-image">
+        <img src="construction.png" />
+
       </div>
       <ul className="nav-links">
         <li>

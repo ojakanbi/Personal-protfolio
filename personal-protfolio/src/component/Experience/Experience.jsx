@@ -3,7 +3,7 @@ import "./Experience.css";
 
 const experiences = [
   {
-    image: "salesforce.svg",
+    image: "Salesforce.svg",
     imageSize: " ",
     title: "Incoming Software Engineer Intern",
     date: "May 2024 - Aug 2024",
