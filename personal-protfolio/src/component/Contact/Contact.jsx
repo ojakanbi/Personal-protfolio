@@ -1,9 +1,9 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import axios from "axios";
 import "./Contact.css";
 import { GitHub, Instagram } from "@mui/icons-material";
-import Linkedin from '@mui/icons-material/LinkedIn';
+import Linkedin from "@mui/icons-material/LinkedIn";
 
 export default function Contact() {
   const [data, setData] = useState({ name: "", email: "", message: "" });
@@ -56,7 +56,9 @@ export default function Contact() {
                       type="text"
                       name="name"
                       value={data.name}
-                      onChange={(e) => setData({ ...data, name: e.target.value })}
+                      onChange={(e) =>
+                        setData({ ...data, name: e.target.value })
+                      }
                     />
                   </div>
                   <div className="input-group">
@@ -66,7 +68,9 @@ export default function Contact() {
                       type="email"
                       name="email"
                       value={data.email}
-                      onChange={(e) => setData({ ...data, email: e.target.value })}
+                      onChange={(e) =>
+                        setData({ ...data, email: e.target.value })
+                      }
                     />
                   </div>
                   <div className="input-group">
@@ -75,7 +79,9 @@ export default function Contact() {
                       placeholder="Enter your message here..."
                       name="message"
                       value={data.message}
-                      onChange={(e) => setData({ ...data, message: e.target.value })}
+                      onChange={(e) =>
+                        setData({ ...data, message: e.target.value })
+                      }
                     />
                   </div>
                   <div className="button-group">
@@ -93,14 +99,15 @@ export default function Contact() {
 
         <div className="contactsList">
           <ul>
-          <li>
+            <li>
               <a
                 href="https://www.linkedin.com/in/ojakanbi/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Linkedin className="iconContact" />
-               
+                <svg width="80px" height="80px" className="iconContact">
+                  <Linkedin />
+                </svg>
               </a>
             </li>
             <li>
@@ -110,7 +117,10 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 {" "}
-                <GitHub className="iconContact" />
+                <svg width="80px" height="80px" className="iconContact">
+                  {" "}
+                  <GitHub />
+                </svg>
               </a>
             </li>
             <li>
@@ -119,7 +129,10 @@ export default function Contact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Instagram className="iconContact" />
+                <svg width="80px" height="80px" className="iconContact">
+                  {" "}
+                  <Instagram />
+                </svg>
               </a>
             </li>
           </ul>
@@ -128,6 +141,3 @@ export default function Contact() {
     </section>
   );
 }
-
-
-       

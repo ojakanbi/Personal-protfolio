@@ -70,7 +70,7 @@
 
 .resume-btn:hover {
   background-color: white;
-  color: #577ab2;
+  color: var(--websiteUniqueColor);
   cursor: pointer;
 }
 

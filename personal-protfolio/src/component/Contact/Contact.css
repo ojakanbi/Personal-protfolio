@@ -66,7 +66,7 @@
 }
 
 .iconContact {
-  font-size: 90px;
+  size: 40px;
   color: #121111;
   background-color:var(--websiteUniqueColor);
   border-radius: 40%;
