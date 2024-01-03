@@ -40,6 +40,12 @@ const projects = [
         website: "https://ojakanbi.github.io"
     },
     {
+      label: "StoreFront",
+      imgPath: "storefront.png",
+      github: "https://github.com/ojakanbi/Slack-store-Salesforce?tab=readme-ov-file",
+      website: "https://ojakanbi.github.io"
+  },
+    {
         label: "Personal Website",
         imgPath: "personalweb.png",
         github: "https://github.com/ojakanbi/Personal-protfolio",

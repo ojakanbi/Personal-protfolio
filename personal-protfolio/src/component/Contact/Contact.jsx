@@ -100,6 +100,7 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 <Linkedin className="iconContact" />
+               
               </a>
             </li>
             <li>
