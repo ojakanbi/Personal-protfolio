@@ -1,15 +1,22 @@
+'use client'
 import React from "react";
 import "./Navbar.css";
-
+import { motion } from "framer-motion"
 
 export default function Navbar() {
   return (
-    <nav className="navbar-container">
+    <>
+   
+        
+
+      <nav className="navbar-container">
+      <motion.div animate={{rotate:360, duration: 10 }} >
       <div className="logo-container">
         <a href="/" className="logo-link">
           OJ
         </a>
-      </div>
+          </div>
+          </motion.div>
       <div id="contrcution-image">
         <img src="construction.png" />
 
@@ -52,6 +59,11 @@ export default function Navbar() {
           </a>
         </li>
       </ul>
-    </nav>
+      </nav>
+      
+    
+     
+    </>
+    
   );
 }
